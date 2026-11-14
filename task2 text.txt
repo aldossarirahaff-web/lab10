@@ -1,0 +1,39 @@
+Welcome to SWI-Prolog (threaded, 64 bits, version 10.0.2)
+SWI-Prolog comes with ABSOLUTELY NO WARRANTY. This is free software.
+Please run ?- license. for legal details.
+
+For online help and background, visit https://www.swi-prolog.org
+For built-in help, use ?- help(Topic). or ?- apropos(Word).
+
+101 ?- consult(['c:/Users/xraha/Downloads/task2.pl.pl']).
+true.
+
+102 ?- login.
+Enter username: rahaf
+Enter password: 1234
+Login Successful
+true.
+
+103 ?- login.
+Enter username: sara
+Enter password: 1111
+Login Unsuccessful. You have 2 more attempts.
+Enter username: ahmad
+Enter password: 5678
+Login Successful
+true.
+
+103 ?- login.
+Enter username: sara
+Enter password: 1111
+Login Unsuccessful. You have 2 more attempts.
+Enter username: ali
+Enter password: 2222
+Login Unsuccessful. You have 1 more attempts.
+Enter username: test
+Enter password: 3333
+Login Unsuccessful
+Sorry, you exceeded the maximum number of attempts, try again later.
+true.
+
+103 ?- 
